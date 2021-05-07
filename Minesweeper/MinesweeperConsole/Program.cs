@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MinesweeperLib;
 
 namespace MinesweeperConsole
 {
@@ -10,7 +6,10 @@ namespace MinesweeperConsole
     {
         static void Main(string[] args)
         {
-            var core = new Minesweeper.MinesweeperCore();
+            var config = new Minesweeper.Configuration();
+            config.FieldWidth = 24;
+            config.FieldHeight = 24;
+            var minesweeper = Minesweeper.CreateGame(config);
         }
     }
 }
