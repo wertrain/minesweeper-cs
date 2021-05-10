@@ -73,6 +73,7 @@ namespace MinesweeperConsole
 
             System.Console.CursorLeft = 0;
             System.Console.CursorTop = Field.GetLength(1) + 1;
+            System.Console.CursorVisible = false;
         }
 
         /// <summary>
