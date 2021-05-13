@@ -100,7 +100,7 @@ namespace MinesweeperLib
             Opened8Mine,
 
             /// <summary>
-            /// フラグ
+            /// フラッグが立っているかどうか
             /// </summary>
             Flag,
 
